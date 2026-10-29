@@ -1,0 +1,20 @@
+[PASS] no duplicate source records
+[PASS] only objective signal types
+[PASS] points are valid EPSG:25832 inside Germany
+[PASS] point exists only when resolved
+[PASS] records without a point explain why
+[PASS] traceable: URL, title, run
+[PASS] missing dates are flagged
+
+Records by signal type and geo status:
+  substation_modernization | unresolved | 15
+  suedlink_progress | ambiguous | 11
+
+Last runs:
+  825a8a44 | saved_page | succeeded | {'in_scope': 26, 'extracted': 112, 'unchanged': 26, 'out_of_scope': 86, 'geo_ambiguous': 11, 'listing_total': 112, 'rows_in_table': 26, 'geo_unresolved': 15, 'missing_locations': 0, 'missing_updated_at': 0, 'missing_description': 0, 'missing_published_at': 0, 'type_suedlink_progress': 11, 'type_substation_modernization': 15}
+  0b925079 | None | succeeded | {'unchanged': 26}
+  4d91efbd | None | succeeded | {'unchanged': 26}
+  a42ac38f | None | succeeded | {'unchanged': 26}
+  0a91155b | None | succeeded | {'inserted': 26}
+
+Database: PostgreSQL 16.15 (Postgres.app) / PostGIS 3.4.6
